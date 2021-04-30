@@ -37,6 +37,8 @@ class MainActivity : AppCompatActivity() {
                     }
 
                 })
+                .circleCrop()
+                .override(800, 600)
 
 
                 .into(img)
